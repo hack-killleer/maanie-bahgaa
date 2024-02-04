@@ -59,6 +59,8 @@ section:first-of-type.s-block.s-block--photos-slider {
     width: 111px;
     height: 108px;
     margin: auto;
+     background-repeat: no-repeat;
+
 }
 /* Media Query for Mobile Devices */ 
  @media (max-width: 480px) { 
