@@ -27,23 +27,7 @@ section:first-of-type.s-block.s-block--photos-slider {
 }
 
 /* categoryyy//////////////// */ 
-.grid.one-row.md\:grid-cols-3.grid-flow-row.gap-3.sm\:gap-8{
-    display: flex;
-    flex-wrap: wrap;
-}
-.lazy__bg.lazy.entered.loaded {
-    background-size: contain;
-    background-repeat: no-repeat;
-}
- .banner--fixed img {
-    background: #faebd700;
-}   
 
-.banner-entry {
-    width: 30%;
-    height: 300px !important;
-    background: #f9fafb00;
-}
     .s-button-primary-outline {
     background: var(--color-primary);
     color: #ffffff;
@@ -62,20 +46,3 @@ section:first-of-type.s-block.s-block--photos-slider {
      background-repeat: no-repeat;
 
 }
-/* Media Query for Mobile Devices */ 
- @media (max-width: 480px) { 
-           .banner-entry {
-    width: 30%;
-     height: 130px !important;
-         background: #f9fafb00;
-    }
-  } 
-/* Media Query for low resolution  Tablets, Ipads */ 
-       
-@media (min-width: 481px) and (max-width: 767px) { 
- .banner-entry {
-    width: 30%;
-    height: 177px !important;
-    background: #f9fafb00;
-    }
- }
